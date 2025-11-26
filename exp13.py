@@ -1,0 +1,11 @@
+import numpy as np
+arr = np. random. randn (25)
+min_val = arr-min()
+max_val = arr-max()
+min_index = arr.argmin()
+max_index = arr.argmax()
+print ("Array: \n", arr)
+print("\nMinimum Value:", min_val)
+print("Index of Minimum:", min_index)
+print ("\nMaximum Value:", max_val)
+print ("Index of Maximum:", max_index)
